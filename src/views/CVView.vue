@@ -1,29 +1,23 @@
 <template>
-    <div>
-        <v-row>
-            <v-col cols="12">
-                <h1 class="text-h4 font-weight-bold mb-6">CV Management</h1>
-            </v-col>
-        </v-row>
+  <div>
+    <n-space vertical size="large">
+      <div>
+        <h1 style="margin: 0; font-size: 28px; font-weight: 600;">CV Management</h1>
+      </div>
 
-        <v-row>
-            <v-col cols="12">
-                <v-card>
-                    <v-card-text>
-                        <div class="text-center pa-8">
-                            <v-icon size="64" color="grey-lighten-1">mdi-account-circle</v-icon>
-                            <h2 class="text-h5 mt-4">CV Management</h2>
-                            <p class="text-body-1 mt-2">
-                                CV management functionality will be available soon. This will include editing personal
-                                information, work experience, education, and skills.
-                            </p>
-                            <v-btn color="primary" class="mt-4" disabled>
-                                Coming Soon
-                            </v-btn>
-                        </div>
-                    </v-card-text>
-                </v-card>
-            </v-col>
-        </v-row>
-    </div>
+      <n-card>
+        <div style="text-align: center; padding: 48px;">
+          <div style="font-size: 64px; color: #ccc; margin-bottom: 16px;">👤</div>
+          <h2 style="margin: 0 0 8px 0; font-size: 20px;">CV Management</h2>
+          <p style="margin: 0 0 24px 0; color: #666;">
+            CV management functionality will be available soon. This will include editing personal
+            information, work experience, education, and skills.
+          </p>
+          <n-button disabled>
+            Coming Soon
+          </n-button>
+        </div>
+      </n-card>
+    </n-space>
+  </div>
 </template>
